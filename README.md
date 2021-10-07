@@ -1,6 +1,6 @@
 # @bzelip/basscss7.1.1
 
-Distribution of https://unpkg.com/basscss@7.1.1/css/basscss.min.css as a dependency-free npm package that indicates its main file in package.json.
+Distribution of [basscss@7.1.1](https://unpkg.com/basscss@7.1.1/css/basscss.min.css) as a dependency-free npm package that indicates its main file in package.json.
 
 ## Installation
 
@@ -14,6 +14,14 @@ npm i -S @bzelip/basscss7.1.1
 @import '@bzelip/basscss7.1.1';
 ```
 
+## Test
+
+Verify that `./basscss@7.1.1.min.css` is the same as https://unpkg.com/basscss@7.1.1/css/basscss.min.css.
+
+```bash
+npm test
+```
+
 ## Motivation
 
 [Basscss](https://basscss.com/) was amazing when it came out, and inspired much innovation in the CSS world. Its [author](https://jxnblk.com) is a front end and design hero.
@@ -22,7 +30,7 @@ While the project is no longer active and stopped at version 8.x, [version 7.1.1
 
 Basscss came out at the time when folks were just starting to stretch the intended use of npm from distributing Node server files to distributing web development tools more broadly, including CSS.
 
-But there weren't many conventions or tools for this shift yet. So single assets in packages like Basscss were awkwardly copied to CSS directories from node_modules/, or imported explicitly from node_modules/, eg:
+But there weren't many conventions or tools for this shift yet. So single assets in packages like Basscss were awkwardly copied to CSS directories from node_modules/, or imported explicitly from node_modules/.
 
 ```css
 @import '../node_modules/basscss/css/basscss.min.css';
