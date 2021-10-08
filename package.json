@@ -1,6 +1,6 @@
 {
   "name": "@bzelip/basscss7.1.1",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "npm distribution of https://unpkg.com/basscss@7.1.1/css/basscss.min.css.",
   "main": "basscss@7.1.1.min.css",
   "scripts": {

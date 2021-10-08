@@ -24,7 +24,7 @@ npm test
 
 ## Motivation
 
-[Basscss](https://basscss.com/) was amazing when it came out, and inspired much innovation in the CSS world. Its [author](https://jxnblk.com) is a front end and design hero.
+[Basscss](https://basscss.com/) was amazing when it came out, and inspired much innovation in the CSS world. Its [author](https://jxnblk.com) is a front end and design system hero.
 
 While the project is no longer active and stopped at version 8.x, [version 7.1.1](https://basscss.com/v7/) remains my favorite.
 
@@ -38,7 +38,7 @@ But there weren't many conventions or tools for this shift yet. So single assets
 
 😵
 
-Also, installing basscss@7.1.1 adds 30 total packages to node_modules/.
+Also, installing basscss@7.1.1 adds 30 total packages. It's not _that_ big of a deal, especially since they're all small packages. But when working in a build environment like Netlify or GitHub Actions, time is money.
 
 I'd rather publish a fork that ships 5 files total and can be imported using it's package name (using a tool like [postcss-import](https://www.npmjs.com/package/postcss-import)), eg:
 
